@@ -12,14 +12,23 @@ Dựa vào cách mình setup các `package` mà có thể dùng nó cho `Photosh
 
 Chúng ta sẽ dùng `mk_poi.exe` để dễ dàng setup các **preferences** của các phần mềm theo ý mình.
 
-## Photoshop
-
-***
-
 ## ZBrush
+
+Bao gồm:
+- Bộ phím tắt cho cọ
+- Bộ 4 palette custom
+- Plugin custom
+- Một số macro
+- Vài vật liệu hay
 
 ***
 
 ## Blender
+
+Hiện tại chỉ có bộ phím tắt.
+
+***
+
+## Photoshop
 
 ***
