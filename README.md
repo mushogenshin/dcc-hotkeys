@@ -70,7 +70,68 @@ Phím tắt như sau:
 
 ## Blender
 
-Hiện tại chỉ có bộ phím tắt.
+Phím tắt như sau:
+
+### General Key Map
+
+| Name                             | Blender Default | Industry Default | Proposal          | Set |
+|----------------------------------|-----------------|------------------|-------------------|-----|
+| Show Region UI                   | N               | Ctrl, ]          |                   | Yes |
+| Show Region Toolbar              | T               | Ctrl, [          |                   | Yes |
+| Toggle Symmetry (X axis)         |                 |                  | 8, Shift          | Yes |
+| Toggle X-Ray                     |                 |                  | 1, Shift          | Yes |
+| Toggle Wireframe                 |                 |                  | 2, Shift          | Yes |
+| Display as Wire Edges            |                 |                  | 6, Shift          | Yes |
+| Display as Solid                 |                 |                  | 6, Shift          | Yes |
+| Display Material Preview         |                 |                  | 6, Shift          | Yes |
+| Display Render View              |                 |                  | 6, Shift          | Yes |
+| Set Active Object as Camera      |                 |                  | L                 | Yes |
+| Lock Camera to View              |                 |                  | Ctrl, L           | Yes |
+| Toggle Camera View               | 0               | F4               |                   | No  |
+| Toggle Perspective/Orthographic  |                 |                  | P                 | Yes |
+| Toggle Extra Objects in Viewport |                 |                  | Alt, P            | Yes |
+| Set 3D Cursor                    | Left Click      |                  | Left Click, Shift | Yes |
+
+### Sculpting Key Map
+
+| Name                            | Blender Default         | Function                           | Proposal       | Set |
+|---------------------------------|-------------------------|------------------------------------|----------------|-----|
+| Cursor                          | C                       | Placement location/Pivot           |                | Yes |
+| Activate Sculpt Mode (for Mesh) |                         |                                    | 4, Alt         | Yes |
+| Voxel Remesh                    | Ctrl, R                 | ~ Dynamesh                         | Ctrl, Y        | Yes |
+| Voxel Size Edit                 | R, Shift                | auxiliary feature for Voxel Remesh | Shift, Y       | Yes |
+| Quadriflow Remesh               | Alt, Ctrl, R            | ~ ZRemesher                        | Alt, Ctrl, Y   | Yes |
+| Dyntopo                         |                         | ~ SculptrisPro                     | 5, Shift       | Yes |
+| Mask Brush                      | M                       |                                    | A              | Yes |
+| Show Mask                       | Ctrl, M                 |                                    | A, Ctrl        | Yes |
+| Mask Flood Fill                 | A, Ctrl, Shift          |                                    | A, Ctrl, Shift | Yes |
+| Invert Mask                     | Ctrl, I                 |                                    | A, Alt, Ctrl   | Yes |
+| Clear Mask                      |                         |                                    | A, Alt, Shift  | No  |
+| Lasso Mask                      | Ctrl, Shift, left mouse |                                    |                | Yes |
+| Hide (Rect)                     | Ctrl, H                 |                                    | H              | Yes |
+| Unhide (Rect)                   | H, Shift                |                                    | Alt, Ctrl, H   | Yes |
+| Unhide All                      | Alt, H                  |                                    | Alt, H, Shift  | Yes |
+| 🌋 Mesh Filter                   |                         |                                    | P              | Yes |
+| 👾 Draw Face Sets                |                         |                                    | G              | Yes |
+| 🤸‍♂️ Pose                         |                         |                                    | E              | Yes |
+| Transform                       |                         |                                    | W              | Yes |
+| Smooth                          |                         | ~ SmoothStronger                   |                | No  |
+| Grab                            |                         | ~ Move brush                       | 1              | Yes |
+| Clay Strips                     |                         | ~ ClayBuildup                      | 2              | Yes |
+| Draw Sharp                      |                         | ~ MAHCut Mech                      | 3              | Yes |
+| Fill                            |                         | ~ hPolish (negative mode)          | 4              | No  |
+| Flatten                         |                         | ~ TrimDynamic brush (not so much)  | 5              | Yes |
+| Elastic Deform                  |                         |                                    | 1, Alt, Shift  | Yes |
+| Nudge                           |                         |                                    | 2, Alt, Shift  | Yes |
+| Pinch                           |                         |                                    | 3, Alt, Shift  | Yes |
+| Inflate                         |                         |                                    | 4, Alt, Shift  | Yes |
+| Cloth                           |                         |                                    | 5, Alt, Shift  | Yes |
+| Draw                            |                         | ~ Standard                         | 1, Ctrl        | Yes |
+| Clay                            |                         |                                    | 2, Ctrl        | Yes |
+|                                 |                         |                                    | 3, Ctrl        | No  |
+| Snake Hook                      |                         |                                    | 4, Ctrl        | Yes |
+|                                 |                         |                                    | 5, Ctrl        | No  |
+| Rotate                          | R                       |                                    |                | No  |
 
 ***
 
