@@ -2,7 +2,8 @@ keyconfig_data = \
 [("3D View",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("wm.call_panel",
+   [("view3d.cursor3d", {"type": 'RIGHTMOUSE', "value": 'PRESS', "shift": True}, None),
+     ("wm.call_panel",
      {"type": 'RET', "value": 'PRESS'},
      {"properties":
       [("name", 'TOPBAR_PT_name'),
@@ -370,8 +371,7 @@ keyconfig_data = \
  ("3D View Tool: Cursor",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("view3d.cursor3d", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
-    ("transform.translate",
+   [("transform.translate",
      {"type": 'EVT_TWEAK_L', "value": 'ANY'},
      {"properties":
       [("cursor_transform", True),
@@ -379,7 +379,6 @@ keyconfig_data = \
        ],
       },
      ),
-    ("view3d.cursor3d", {"type": 'MIDDLEMOUSE', "value": 'PRESS', "shift": True}, None),
     ("transform.translate",
      {"type": 'EVT_TWEAK_M', "value": 'ANY'},
      {"properties":
@@ -569,8 +568,7 @@ keyconfig_data = \
  ("3D View Tool: Edit Gpencil, Tweak",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("view3d.cursor3d", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
-    ("transform.translate",
+   [("transform.translate",
      {"type": 'EVT_TWEAK_L', "value": 'ANY'},
      {"properties":
       [("cursor_transform", True),
@@ -1051,8 +1049,7 @@ keyconfig_data = \
  ("3D View Tool: Sculpt Gpencil, Tweak",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("view3d.cursor3d", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
-    ("transform.translate",
+   [("transform.translate",
      {"type": 'EVT_TWEAK_L', "value": 'ANY'},
      {"properties":
       [("cursor_transform", True),
@@ -1330,8 +1327,7 @@ keyconfig_data = \
  ("3D View Tool: Tweak",
   {"space_type": 'VIEW_3D', "region_type": 'WINDOW'},
   {"items":
-   [("view3d.cursor3d", {"type": 'LEFTMOUSE', "value": 'PRESS', "shift": True}, None),
-    ("transform.translate",
+   [("transform.translate",
      {"type": 'EVT_TWEAK_L', "value": 'ANY'},
      {"properties":
       [("cursor_transform", True),
@@ -1699,7 +1695,7 @@ keyconfig_data = \
     ("SEGMENTS_DOWN", {"type": 'NUMPAD_MINUS', "value": 'PRESS', "any": True}, None),
     ("OFFSET_MODE_CHANGE", {"type": 'M', "value": 'PRESS', "any": True}, None),
     ("CLAMP_OVERLAP_TOGGLE", {"type": 'C', "value": 'PRESS', "any": True}, None),
-    ("VERTEX_ONLY_TOGGLE", {"type": 'V', "value": 'PRESS', "any": True}, None),
+    ("", {"type": 'V', "value": 'PRESS', "any": True}, None),
     ("HARDEN_NORMALS_TOGGLE", {"type": 'H', "value": 'PRESS', "any": True}, None),
     ("MARK_SEAM_TOGGLE", {"type": 'U', "value": 'PRESS', "any": True}, None),
     ("MARK_SHARP_TOGGLE", {"type": 'K', "value": 'PRESS', "any": True}, None),

@@ -74,23 +74,25 @@ Phím tắt như sau:
 
 ### General Key Map
 
-| Name                             | Blender Default | Industry Default | Proposal          | Set |
-|----------------------------------|-----------------|------------------|-------------------|-----|
-| Show Region UI                   | N               | Ctrl, ]          |                   | Yes |
-| Show Region Toolbar              | T               | Ctrl, [          |                   | Yes |
-| Toggle Symmetry (X axis)         |                 |                  | 8, Shift          | Yes |
-| Toggle X-Ray                     |                 |                  | 1, Shift          | Yes |
-| Toggle Wireframe                 |                 |                  | 2, Shift          | Yes |
-| Display as Wire Edges            |                 |                  | 6, Shift          | Yes |
-| Display as Solid                 |                 |                  | 6, Shift          | Yes |
-| Display Material Preview         |                 |                  | 6, Shift          | Yes |
-| Display Render View              |                 |                  | 6, Shift          | Yes |
-| Set Active Object as Camera      |                 |                  | L                 | Yes |
-| Lock Camera to View              |                 |                  | Ctrl, L           | Yes |
-| Toggle Camera View               | 0               | F4               |                   | No  |
-| Toggle Perspective/Orthographic  |                 |                  | P                 | Yes |
-| Toggle Extra Objects in Viewport |                 |                  | Alt, P            | Yes |
-| Set 3D Cursor                    | Left Click      |                  | Left Click, Shift | Yes |
+| Name                             | Blender Default    | Industry Default | Proposal | Set |
+|----------------------------------|--------------------|------------------|----------|-----|
+| Show Region UI                   | N                  | Ctrl, ]          |          | Yes |
+| Show Region Toolbar              | T                  | Ctrl, [          |          | Yes |
+| Toggle Symmetry (X axis)         |                    |                  | 8, Shift | Yes |
+| Toggle X-Ray                     |                    |                  | 1, Shift | Yes |
+| Toggle Wireframe                 |                    |                  | 2, Shift | Yes |
+| Display as Wire Edges            |                    |                  | 6, Shift | Yes |
+| Display as Solid                 |                    |                  | 6, Shift | Yes |
+| Display Material Preview         |                    |                  | 6, Shift | Yes |
+| Display Render View              |                    |                  | 6, Shift | Yes |
+| Set Active Object as Camera      |                    |                  | L        | Yes |
+| Lock Camera to View              |                    |                  | Ctrl, L  | Yes |
+| Toggle Camera View               | 0                  | F4               |          | No  |
+| Toggle Perspective/Orthographic  |                    |                  | P        | Yes |
+| Toggle Extra Objects in Viewport |                    |                  | Alt, P   | Yes |
+| Set 3D Cursor                    | Right Click, Shift |                  |          | Yes |
+
+***
 
 ### Sculpting Key Map
 
